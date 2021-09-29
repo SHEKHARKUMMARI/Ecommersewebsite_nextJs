@@ -1,0 +1,10 @@
+import Link from 'next/link'
+const Product=()=>{
+    return (
+      <div>
+          <h1>product page</h1>
+          <Link href="/"><a>go to home page</a></Link>
+      </div>
+    )
+  }
+  export default Product
